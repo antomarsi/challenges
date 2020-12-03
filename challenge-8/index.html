@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Event</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      background: linear-gradient(
+          rgba(35, 22, 154, 0.45),
+          rgba(35, 22, 154, 0.45)
+        ),
+        url(assets/background.png);
+      background-position: center 0px;
+      font-family: 'Roboto', sans-serif;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+    }
+    header {
+      font-size: 17px;
+      font-weight: 500;
+      align-self: center;
+      width: 400px;
+      margin-top: 60px;
+      display: inherit;
+      flex: inherit;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-transform: uppercase;
+    }
+    main {
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    footer {
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-family: 'Fugaz One', 'Roboto', sans-serif;
+      font-size: 160px;
+      text-transform: uppercase;
+      text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    }
+    h2 {
+      font-size: 54px;
+      text-transform: uppercase;
+    }
+    .time {
+      margin: 20px;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Wallpoet';
+    }
+    .time > .time-title {
+      font-size: 70px;
+    }
+    .time > .subtitle {
+      font-size: 24px;
+    }
+    .countdown {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .footer-buttons {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    img.headphones {
+      display: inherit;
+      flex: inherit;
+    }
+    h3 {
+      justify-content: center;
+    }
+    .btn-social {
+      margin: 20px;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 10px;
+      border-width: 0;
+    }
+    .btn-social:hover {
+      transition: background-color 144ms;
+    }
+    .btn-social.google {
+      background-color: #dd4b39;
+    }
+    .btn-social.google:hover {
+      background-color: #b33423;
+    }
+    .btn-social.twitter {
+      background-color: #1DA1F2;
+    }
+    .btn-social.twitter:hover {
+      background-color: #138edb;
+    } 
+    .btn-social.linkedin {
+      background-color: #0077B5;
+    }
+    .btn-social.linkedin:hover {
+      background-color: #004d77;
+    }
+  </style>
+  <body>
+    <header>
+        <a>Home</a>
+        <a>About us</a>
+        <a>Features</a>
+        <a>Contact</a>
+    </header>
+    <main>
+        <h1>Music Event</h1>
+        <h2>Sunday 16 May, 2021</h2>
+          <img class="headphones" src="assets/headphone.png" />
+        <div class="countdown">
+          <div class="time">
+            <span class="time-title" id="days">--</span>
+            <span class="subtitle">Days</span>
+          </div>
+          <div class="time">
+            <span class="time-title" id="hours">--</span>
+            <span class="subtitle">hours</span>
+          </div>
+          <div class="time">
+            <span class="time-title" id="minutes">--</span>
+            <span class="subtitle">minutes</span>
+          </div>
+          <div class="time">
+            <span class="time-title" id="seconds">--</span>
+            <span class="subtitle">seconds</span>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <h3>STAY IN TOUCH</h3>
+        <div class="footer-buttons">
+          <button class="btn-social google">Goggle +</button>
+          <button class="btn-social twitter">Twitter +</button>
+          <button class="btn-social linkedin">LinkedIn +</button>
+        </div>
+      </footer>
+      <script>
+        var days = document.getElementById('days')
+        var hours = document.getElementById('hours')
+        var minutes = document.getElementById('minutes')
+        var seconds = document.getElementById('seconds')
+        var finalDate = new Date("2021/05/16")
+        setInterval(() => {
+          var date = parseInt((finalDate - new Date())/1000)
+          //days.textContent = date.getDay()
+          days.textContent = parseInt(date % (60 * 60 * 24 * 365) / (60 * 60 * 24))
+          hours.textContent = parseInt(date % (60 * 60 * 24) / (60 * 60))
+          minutes.textContent = parseInt(date % (60 * 60) / 60)
+          seconds.textContent = date % 60
+        }, 500);
+      </script>
+  </body>
+</html>
