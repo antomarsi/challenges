@@ -1,75 +1,70 @@
-<p align="center">
-  <img alt="Challenge 9 - FW7" width="120" title="Challenge 9 - FW7" src="../.github/logo.png" />
-</p>
+# Getting Started with Create React App
 
-<h1 align="center">Challenge 9 - FW7</h1>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 📅 01/03/2021 - 31/03/2021
+## Available Scripts
 
-🎵 Challenge music: [Party Mix - Remixes](https://www.youtube.com/watch?v=W9iUh23Xrsg)
+In the project directory, you can run:
 
-**▶️ Dê play na música acima e vem comigo.** 🤘
+### `yarn start`
 
-Eaaaeee meus jovens, olha quem voltou 💪. Nosso 
-  queridíssimo _Challenge_ está de volta para o ano de **2021** com o intuito de botar essa galera para codar como nunca 🙌 hehe.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Como já haviamos combinado, cada vez mais iriamos aumentar a dificuldade dos _Challenges_ a fim de torná-lo mais desafiador, pois a experiência adquirida será muito maior já que vamos compartilhar o código desenvolvido entre todos os _devs_. 😉
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Então é hora de daler galera, boraaa. 😜
+### `yarn test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 📕 Informações úteis
+### `yarn build`
 
-- Lembre-se de ler a regras gerais no [README](../README.md), pois não será tolerado desculpinhas depois. 😅
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Cada participante irá fazer a sua versão e publicar em seu _github_, no final do _challenge_ será "recolhido" todos os respositórios e anexados neste **doc**.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Será escolhido pelos participantes a melhor solução e o resultado será publicado aqui mesmo.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Qualquer dúvida já sabe né, só por na caixinha branca 🗑️ de questionamentos localizada na cozinha.
+### `yarn eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## 🎯 Challenge
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Agora chegou a hora da verdade, bora ver qual será o desafio. 📝
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Nesse desafio será construído uma _interface_ para gerar senhas aleatórias, tendo a possibilidade do usuário escolher a quantidade de caracteres em um _range_ de 4 e 32 caracteres. Na _interface_ também deve haver uma a possibilidade de configurar como será as senhas geradas, se irá permitir gerar letra maiúscula, números e símbolos.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Não será colocado nenhuma imagem de exemplo, pois a ideia do desafio é cada _dev_ pensar e imaginar na melhor _interface_ possível.
+## Learn More
 
-O uso é bem simples, o usuário irá escolher a quantidade de caracteres que ele quer, a configiuração dos tipos de caracteres e mandar gerar a senha.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-É isso ae meu povo, esse é desafio delicinha que vamos fazer. 🤩
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-✅ CA 
-- Deve ser possível escolher a quantidade de caracteres a serem gerados. _(4 - 32)_
-- Deve ser possível permitir ou não letrar maiúsculas. _(A, B, C...)_
-- Deve ser possível permitir ou não números. _(1, 2, 3...)_
-- Deve ser possível permitir ou não símbolos. _(!, @, #...)_
-- Deve ser possível gerar uma senha aleatória.
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 🔒 Regras
+### Analyzing the Bundle Size
 
-- Pode utilizar a tecnologia que melhor lhe convém.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- O resultado final deverá estar publicado para visualização de todos os participantes. Uma sugestão seria usar o [Netlify](https://www.netlify.com/) pela praticidade.
+### Making a Progressive Web App
 
-- Se divertir. 😄
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
----
+### Advanced Configuration
 
-## 🤯 Solução dos devs
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Aguardando...
+### Deployment
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-É meus _devzeras_ aqui chegamos ao final de mais um _challenge_, espero que possamos aprender coisas novas com esse desafio e o melhor de tudo, compartilhar e trocar experiências. Nos vemos na entrega do desafio para ver a solução dos _devs_ e discutir os resultados.
+### `yarn build` fails to minify
 
-Até logo. 👊
-
-by [Roberto Umbelino](https://github.com/robertoumbelino)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
