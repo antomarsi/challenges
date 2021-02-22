@@ -68,11 +68,11 @@ const App = () => {
     },
     {
       value: PASS_ENUM.USE_NUMERIC,
-      text: 'Use UPPERCASE [1, 2, 3...]'
+      text: 'Use NUMERIC [1, 2, 3...]'
     },
     {
       value: PASS_ENUM.USE_SYMBOL,
-      text: 'Use UPPERCASE [!, @, #...]'
+      text: 'Use SYMBOL [!, @, #...]'
     }
   ]
 
