@@ -64,7 +64,7 @@ O uso é bem simples, o usuário irá escolher a quantidade de caracteres que el
 
 ## 🤯 Solução dos devs
 
-Aguardando...
+😎 [Antonio Marco da Silva](https://github.com/antomarsi/challenges/tree/feat/antonio) - [Preview](https://elegant-ardinghelli-de73fe.netlify.app/)
 
 ---
 
